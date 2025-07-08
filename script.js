@@ -24,7 +24,7 @@ function aumentaTamanho(){
     geraSenha();
 }
 
-const campoSenha = document.querySelector(#campo-senha);
+const campoSenha = document.querySelector("#campo-senha");
 
 const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const letrasMinusculas = 'abcdefghijklmnopqrstuvwxyz';
@@ -36,10 +36,10 @@ const checkbox = document.querySelectorAll('.checkbox');
 function geraSenha () {
     let alfabeto = '';
     if (checkbox[0].checked) {
-        alfabeto = alfabeto + letrasMinusculas;
+        alfabeto = alfabeto + letrasMaiusculas;
     }
     if (checkbox[1].checked) {
-        alfabeto = alfabeto + letrasMaiusculas;
+        alfabeto = alfabeto + letrasMinusculas;
     }
     if (checkbox[2].checked) {
         alfabeto = alfabeto + numeros;
