@@ -134,6 +134,16 @@ label {
     background-color: #E71832;
 }
 
+.media {
+    width: 50%;
+    background-color: #FAF408;
+}
+
+.media {
+    width: 100%;
+    background-color: #00FF85;
+}
+
 .parametro-senha-textos {
     display: flex;
     justify-content: space-between;
